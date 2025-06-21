@@ -17,9 +17,9 @@ const Home = () => {
       >
         <div className="text-box">
           <h1>Easy & fast way to search for github users</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <p>Find any user on github effortlessly with just a click on the search button below. </p>
           <Link to="/user">
-            <button className="btn btn-primary">Search</button>
+            <button className="btn btn-primary custom-purple-btn-override">Search</button>
           </Link>
         </div>
         <img src={homeImg} alt="Home" />

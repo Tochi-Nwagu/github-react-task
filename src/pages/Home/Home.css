@@ -18,3 +18,13 @@ p {
   font-family: 'Cormorant', sans-serif;
   font-weight: 400;
 }
+
+.btn-primary.custom-purple-btn-override{
+  background-color: #403f51 !important;
+  border-color: #403f51 !important;
+}
+
+.btn-primary.custom-purple-btn-override:hover{
+  background-color: #6e6c8b !important;
+  border-color: #6e6c8b !important;
+}

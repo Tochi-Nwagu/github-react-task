@@ -116,7 +116,7 @@ const FindUsers = () => {
         />
         <Link to={`/profile/${suggestions[0]?.login}`}>
           <button
-            className="btn btn-primary"
+            className="btn btn-primary custom-purple-btn-override"
             onClick={() =>
               suggestions.length > 0 && fetchUserData(suggestions[0].login)
             }
